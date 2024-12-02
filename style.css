@@ -1,0 +1,58 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  font-size: 16px; /* Adjust as needed */
+  --font-quicksand: "Quicksand", sans-serif;
+  --font-droid-sans: "Droid Sans", sans-serif;
+}
+
+body{
+    background-image: url(home_images/Group\ 31.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-position-y: top;
+    background-size: 1488px;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-block: 54px;
+}
+
+.ulnavbar {
+  display: flex;
+  font-size: 20.5px;/* Adjust as needed */
+  gap: 50px;
+}
+
+.ulnavbar a {
+    text-decoration: none;
+    color: #7E7E7E;
+    font-family: var(--font-quicksand);
+    font-weight: 700;
+    gap: 10px;
+}
+
+.ulnavbar li {
+    list-style: none;
+}
+
+.home{
+    display: none;
+}
+
+.icons{
+  display: flex;
+}
+
+/* General styles for the icons */
+.icons {
+  display: flex; /* Align icons in a row */
+  gap: 15px; /* Space between icons */
+}
